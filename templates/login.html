@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Churn Prediction</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://img.icons8.com/fluency/48/null/bank.png" />
+
+
+</head>
+
+<body>
+
+    <!---- start--header---->
+    <header class="text-gray-600 body-font ">
+        <div class="container mx-auto  flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font  font-medium items-center text-gray-900 mb-2 md:mb-0">
+                <a s
+                    class="flex title-font  font-medium items-center text-gray-900 mb-2 md:mb-0">
+                    <img src="https://img.icons8.com/doodle/48/null/bank.png" />
+                    <span class="ml-3 text-xl">Bank Churn Prediction</span>
+                </a>
+
+        </div>
+    </header>
+    <!-- <hr> -->
+    <!---- end--header---->
+
+    <!---- start--login---->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <h1 class="title-font text-5xl text-gray-900 dark:text-white">Bring the power of analytics to your business</h1>
+                <p class="leading-relaxed mt-4">Leverage analytics to drive your business forward by collecting and analyzing data to gain insights, make data-driven decisions, and optimize processes for improved performance.</p>
+
+            </div>
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Login</h2>
+                <form method="POST" action="/login" >
+                    <div class="mb-6"  data-validate = "Username is required">
+                        <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                            username</label>
+                        <input id="username"  type="text" name="username" placeholder="Username"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required>
+                    </div>
+                    <div class="mb-6" data-validate = "Password is required" >
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                            password</label>
+                        <input id="password"  type="password" name="password" placeholder="Password"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required>
+                    </div>
+                    <div class="mb-6">
+                        <span class="leading-relaxed mt-4" style="color: red;">
+                            {{message}}
+                        </span>
+                    </div>
+
+                    <button type="submit"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!---- end--login---->
+
+
+
+</body>
+
+</html>

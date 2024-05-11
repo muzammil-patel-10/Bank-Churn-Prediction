@@ -1,0 +1,60 @@
+,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,prediction,recommendations_1,recommendations_2
+0,619,France,Female,42,2,0.0,1,1,1,101348.88,Exit,r10,r8
+1,608,Spain,Female,41,1,83807.86,1,0,1,112542.58,Stay,No recommendations,No recommendations
+2,502,France,Female,42,8,159660.8,3,1,0,113931.57,Exit,r5,r10
+3,699,France,Female,39,1,0.0,2,0,0,93826.63,Stay,No recommendations,No recommendations
+4,850,Spain,Female,43,2,125510.82,1,1,1,79084.1,Stay,No recommendations,No recommendations
+5,645,Spain,Male,44,8,113755.78,2,1,0,149756.71,Exit,r8,r7
+6,822,France,Male,50,7,0.0,2,1,1,10062.8,Stay,No recommendations,No recommendations
+7,376,Germany,Female,29,4,115046.74,4,1,0,119346.88,Exit,r4,r1
+8,501,France,Male,44,4,142051.07,2,0,1,74940.5,Stay,No recommendations,No recommendations
+9,684,France,Male,27,2,134603.88,1,1,1,71725.73,Stay,No recommendations,No recommendations
+10,528,France,Male,31,6,102016.72,2,0,0,80181.12,Stay,No recommendations,No recommendations
+11,497,Spain,Male,24,3,0.0,2,1,0,76390.01,Stay,No recommendations,No recommendations
+12,476,France,Female,34,10,0.0,2,1,0,26260.98,Stay,No recommendations,No recommendations
+13,549,France,Female,25,5,0.0,2,0,0,190857.79,Stay,No recommendations,No recommendations
+14,635,Spain,Female,35,7,0.0,2,1,1,65951.65,Stay,No recommendations,No recommendations
+15,616,Germany,Male,45,3,143129.41,2,0,1,64327.26,Stay,No recommendations,No recommendations
+16,653,Germany,Male,58,1,132602.88,1,1,0,5097.67,Exit,r10,r2
+17,549,Spain,Female,24,9,0.0,2,1,1,14406.41,Stay,No recommendations,No recommendations
+18,587,Spain,Male,45,6,0.0,1,0,0,158684.81,Stay,No recommendations,No recommendations
+19,726,France,Female,24,6,0.0,2,1,1,54724.03,Stay,No recommendations,No recommendations
+20,732,France,Male,41,8,0.0,2,1,1,170886.17,Stay,No recommendations,No recommendations
+21,636,Spain,Female,32,8,0.0,2,1,0,138555.46,Stay,No recommendations,No recommendations
+22,510,Spain,Female,38,4,0.0,1,1,0,118913.53,Exit,r3,r2
+23,669,France,Male,46,3,0.0,2,0,1,8487.75,Stay,No recommendations,No recommendations
+24,846,France,Female,38,5,0.0,1,1,1,187616.16,Stay,No recommendations,No recommendations
+25,577,France,Male,25,3,0.0,2,0,1,124508.29,Stay,No recommendations,No recommendations
+26,756,Germany,Male,36,2,136815.64,1,1,1,170041.95,Stay,No recommendations,No recommendations
+27,571,France,Male,44,9,0.0,2,0,0,38433.35,Stay,No recommendations,No recommendations
+28,574,Germany,Female,43,3,141349.43,1,1,1,100187.43,Stay,No recommendations,No recommendations
+29,411,France,Male,29,0,59697.17,2,1,1,53483.21,Stay,No recommendations,No recommendations
+30,591,Spain,Female,39,3,0.0,3,1,0,140469.38,Exit,r6,r9
+31,533,France,Male,36,7,85311.7,1,0,1,156731.91,Stay,No recommendations,No recommendations
+32,553,Germany,Male,41,9,110112.54,2,0,0,81898.81,Stay,No recommendations,No recommendations
+33,520,Spain,Female,42,6,0.0,2,1,1,34410.55,Stay,No recommendations,No recommendations
+34,722,Spain,Female,29,9,0.0,2,1,1,142033.07,Stay,No recommendations,No recommendations
+35,475,France,Female,45,0,134264.04,1,1,0,27822.99,Exit,r9,r4
+36,490,Spain,Male,31,3,145260.23,1,0,1,114066.77,Stay,No recommendations,No recommendations
+37,804,Spain,Male,33,7,76548.6,1,0,1,98453.45,Stay,No recommendations,No recommendations
+38,850,France,Male,36,7,0.0,1,1,1,40812.9,Stay,No recommendations,No recommendations
+39,582,Germany,Male,41,6,70349.48,2,0,1,178074.04,Stay,No recommendations,No recommendations
+40,472,Spain,Male,40,4,0.0,1,1,0,70154.22,Stay,No recommendations,No recommendations
+41,465,France,Female,51,8,122522.32,1,0,0,181297.65,Exit,r6,r1
+42,556,France,Female,61,2,117419.35,1,1,1,94153.83,Stay,No recommendations,No recommendations
+43,834,France,Female,49,2,131394.56,1,0,0,194365.76,Exit,r4,r1
+44,660,Spain,Female,61,5,155931.11,1,1,1,158338.39,Stay,No recommendations,No recommendations
+45,776,Germany,Female,32,4,109421.13,2,1,1,126517.46,Stay,No recommendations,No recommendations
+46,829,Germany,Female,27,9,112045.67,1,1,1,119708.21,Exit,r9,r6
+47,637,Germany,Female,39,9,137843.8,1,1,1,117622.8,Exit,r7,r2
+48,550,Germany,Male,38,2,103391.38,1,0,1,90878.13,Stay,No recommendations,No recommendations
+49,776,Germany,Female,37,2,103769.22,2,1,0,194099.12,Stay,No recommendations,No recommendations
+50,698,Germany,Male,44,10,116363.37,2,1,0,198059.16,Stay,No recommendations,No recommendations
+51,585,Germany,Male,36,5,146050.97,2,0,0,86424.57,Stay,No recommendations,No recommendations
+52,788,France,Female,33,5,0.0,2,0,0,116978.19,Stay,No recommendations,No recommendations
+53,655,Germany,Male,41,8,125561.97,1,0,0,164040.94,Exit,r6,r8
+54,601,Germany,Male,42,1,98495.72,1,1,0,40014.76,Exit,r8,r5
+55,619,France,Male,43,1,125211.92,1,1,1,113410.49,Stay,No recommendations,No recommendations
+56,656,France,Male,45,5,127864.4,1,1,0,87107.57,Stay,No recommendations,No recommendations
+57,725,Germany,Male,19,0,75888.2,1,0,0,45613.75,Stay,No recommendations,No recommendations
+58,511,Spain,Female,66,4,0.0,1,1,0,1643.11,Exit,r7,r9
